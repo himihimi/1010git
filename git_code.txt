@@ -1,0 +1,15 @@
+himiMacBookPro:~ himi$ cd /Users/himi/
+himiMacBookPro:~ himi$ mkdir 12_git
+himiMacBookPro:~ himi$ cd 12_git
+
+himiMacBookPro:12_git himi$ pwd
+/Users/himi/12_git
+
+himiMacBookPro:12_git himi$ git init
+Initialized empty Git repository in /Users/himi/12_git/.git/
+
+himiMacBookPro:12_git himi$ ls -ah
+.		..		.DS_Store	.git
+
+himiMacBookPro:12_git himi$ git config --global user.name "himi"
+himiMacBookPro:12_git himi$  git config --global user.email "syuseihimi@yahoo.co.jp"
